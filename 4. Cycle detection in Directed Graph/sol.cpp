@@ -17,7 +17,6 @@ bool checkCycleDFS(int node,unordered_map<int,bool> &visited,unordered_map<int,b
     dfsvisited[node]=false;
     return false;
 }
-
 int detectCycleInDirectedGraph(int n, vector < pair < int, int >> & edges) {
   // create adjacency list
    unordered_map<int,list<int>>adj;
